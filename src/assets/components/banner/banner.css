@@ -1,0 +1,73 @@
+.banner-section {
+    background-color: rgb(0, 0, 23);
+    width: 100%;
+    height: 100%;
+    /* min-height: 100vh; */
+    position: relative;
+    padding: 250px 0 50px 0;
+    z-index: 9;
+}
+
+.banner-section:before {
+    background: url(../../../../public/images/login-pattern1.svg);
+    content: "";
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+.banner-section:after {
+    content: "";
+    background: url(../../../../public/images/login-pattern2.svg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.banner-cont p {
+    font: var(--p);
+    margin: 15px 0;
+    
+}
+
+.banner-cont {
+    max-width: 640px;
+    width: 100%;
+    padding-right: 15px;
+}
+
+
+.banner-cont h1{
+	font-size: 4rem;
+	color: transparent;
+    background: rgb(2,0,36);
+    background: linear-gradient(20deg, rgba(2,0,36,1) 0%, rgb(173, 162, 162) 35%, rgba(0,212,255,1) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+.banner-img {
+    width: 100%;
+}
+.banner-img img {
+    height: 100%;
+    object-fit: scale-down;
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    border-radius: 50%;
+}
+.banner-row{
+    align-items: center;
+}

@@ -1,0 +1,117 @@
+body,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", serif;
+}
+
+body {
+    font-family: "DM Sans", sans-serif !important;
+    background-color: rgb(0, 0, 23);
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(231, 241, 251);
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-style: normal;
+    font-family: "Onest", sans-serif;
+    font-weight: 400;
+}
+
+:root {
+    --p: normal 200 18px/1.4 "DM Sans", sans-serif !important;
+
+}
+p{
+    font: var(--p);
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+}
+.btn-secondary {
+    padding: 13px 30px;
+    border: 1px solid rgb(55, 55, 89);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: rgb(231, 241, 251);
+    background: linear-gradient(0deg, rgba(55, 55, 89, 0.03), rgba(55, 55, 89, 0.03)), radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 32px;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(0, 105, 209);
+}
+
+
+.section-title h2 {
+    font-size: 45px;
+    line-height: 1.3;
+    font-weight: 200;
+    margin: 20px 0;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(20deg, rgba(2, 0, 36, 1) 0%, rgb(173, 162, 162) 35%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.section-title h2::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(55, 55, 89, 0.05), rgba(55, 55, 89, 0.05)), radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+
+
+
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.banner-img {
+    animation: bubble 3s ease-in-out infinite;
+}
+
+@keyframes bubble {
+    0% {
+        transform: translateY(0);
+        filter: brightness(0.8);
+
+
+
+    }
+
+    50% {
+        transform: translateY(-10px);
+        filter: brightness(0.5);
+
+    }
+
+    100% {
+        transform: translateY(0);
+        filter: brightness(0.8);
+
+    }
+}
