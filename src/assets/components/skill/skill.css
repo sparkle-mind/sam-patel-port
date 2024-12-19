@@ -1,0 +1,115 @@
+.skill-section {
+    padding: 50px 0;
+    overflow-x: hidden;
+}
+
+.skill-wrp-main {
+    width: 100%;
+    background-color: #26262626;
+    position: relative;
+    overflow: hidden;
+    margin: 50px 0;
+}
+
+.skill-wrp {
+    position: relative;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, #ffffff 300px, #ffffff calc(100vw - 300px), transparent 100%);
+    mask-image: linear-gradient(90deg, transparent 0%, #ffffff 300px, #ffffff calc(100vw - 300px), transparent 100%);
+}
+
+.skill-wrp:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(179deg, #4f4f4f00, #00001761, #00001742);
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.skill-wrp:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(179deg, #4f4f4f00, #000017, #000017);
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.skill-row {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-col {
+
+    padding: 10px;
+
+}
+
+.skill-col-inner {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    border: 1px solid rgba(38, 38, 38, .7);
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+.html .skill-col-inner:hover {
+    box-shadow: 2px 2px 36px -4px #e44d26;
+}
+
+.css .skill-col-inner:hover {
+    box-shadow: 2px 2px 36px -4px #264de4;
+}
+
+.js .skill-col-inner:hover {
+    box-shadow: 2px 2px 36px -4px #f7df1e;
+}
+
+.bt .skill-col-inner:hover {
+    box-shadow: 2px 2px 36px -4px #7410f5;
+}
+
+.tw .skill-col-inner:hover {
+    box-shadow: 2px 2px 36px -4px #4aafb3;
+}
+
+.sass .skill-col-inner:hover {
+    box-shadow: 2px 2px 36px -4px #c36293;
+}
+
+.jq .skill-col-inner:hover {
+    box-shadow: 2px 2px 36px -4px #0868ac;
+}
+
+.react .skill-col-inner:hover {
+    box-shadow: 2px 2px 36px -4px #00d8ff;
+}
+
+.mui .skill-col-inner:hover {
+    box-shadow: 2px 2px 36px -4px #0073e6;
+}
+
+.gh .skill-col-inner:hover {
+    box-shadow: 2px 2px 36px -4px #2100c4;
+}
+
+.bb .skill-col-inner:hover {
+    box-shadow: 2px 2px 36px -4px #0458d2;
+}

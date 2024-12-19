@@ -6,7 +6,8 @@ export default function About() {
       <section id="about" class="about-section">
         <div class="container">
           <div className="section-title">
-            <h2>About Me</h2>
+            <h2 data-aos="fade-right"
+     data-aos-anchor-placement="">About Me</h2>
           </div>
           <div className="about-info">
           <p>

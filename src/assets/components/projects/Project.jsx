@@ -5,7 +5,8 @@ export default function Project() {
     <>
      <section id="projects" class="projects-section">
     <div class="container">
-        <div class="section-title"><h2>Our Projects</h2></div>
+        <div class="section-title"><h2 data-aos="fade-right"
+     data-aos-anchor-placement="">Our Projects</h2></div>
     </div>
 
         <div class="project">

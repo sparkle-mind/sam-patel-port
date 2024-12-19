@@ -6,7 +6,8 @@ export default function WhatWillGet() {
       <section id="WhatWillGet" class="WhatWillGet-section">
         <div class="container">
           <div class="section-title">
-            <h2>What will you get</h2>
+            <h2 data-aos="fade-right"
+     data-aos-anchor-placement="">What will you get</h2>
           </div>
           <div class="What-will-get-row">
             <div class="row g-4">

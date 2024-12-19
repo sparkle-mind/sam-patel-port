@@ -10,7 +10,9 @@ export default function Banner() {
         <div class="container">
           <div class="row banner-row">
             <div class="col-md-7">
-              <div class="banner-cont">
+              <div class="banner-cont " data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-offset="0">
                 <div class="section-title">
                   <h1>Brittany Chiang</h1>
                 </div>
@@ -31,7 +33,7 @@ export default function Banner() {
             </div>
             <div class="col-md-5">
               <div class="banner-img">
-                    <img src="/images/banner-img-new.png" alt="" />
+                <img src="/images/banner-img-new.png" alt="" />
               </div>
             </div>
           </div>
