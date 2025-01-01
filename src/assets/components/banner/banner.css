@@ -2,10 +2,10 @@
     background-color: rgb(0, 0, 23);
     width: 100%;
     height: 100%;
-    min-height:100vh;
+    /* min-height: 100vh; */
     position: relative;
-    padding: 150px 0 50px 0;
     z-index: 9;
+    padding-top: 200px !important;
 }
 
 .banner-section:before {
@@ -35,8 +35,9 @@
 
 .banner-cont p {
     font: var(--p);
-    margin: 15px 0;
-    
+    margin: 30px 0;
+    font-size: 16px;
+
 }
 
 .banner-cont {
@@ -46,19 +47,31 @@
 }
 
 
-.banner-cont h1{
-	font-size: 4rem;
-	color: transparent;
-    background: rgb(2,0,36);
-    background: linear-gradient(20deg, rgba(2,0,36,1) 0%, rgb(173, 162, 162) 35%, rgba(0,212,255,1) 100%);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-clip: text;
-	-webkit-background-clip: text;
+.banner-cont h1 {
+    font-size: 3.5rem;
+    color: transparent;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(20deg, rgba(2, 0, 36, 1) 0%, rgb(173, 162, 162) 35%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    word-spacing: 11px;
 }
+
+.banner-cont h2 {
+    font-size: 21px;
+    font-weight: 400;
+    color: #cbcbcb;
+    text-transform: uppercase;
+}
+
 .banner-img {
     width: 100%;
 }
+
 .banner-img img {
     height: 100%;
     object-fit: scale-down;
@@ -68,6 +81,52 @@
     margin-left: auto;
     border-radius: 50%;
 }
-.banner-row{
+
+.banner-row {
     align-items: center;
+}
+
+.experience-row .ex-col {
+    min-width: 500px;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.ex-col h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 120px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    word-spacing: 11px;
+    position: relative;
+}
+
+.ex-col h2 span {
+    font-size: 8rem;
+    margin-right: 15px;
+    color: transparent;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(20deg, rgba(2, 0, 36, 1) 0%, rgb(173, 162, 162) 35%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    word-spacing: 11px;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(0.2);
+    left: -30px;
+    bottom: -10px;
 }

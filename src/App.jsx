@@ -6,20 +6,10 @@ import Header from "./assets/components/header/Header";
 import About from "./assets/components/about/About";
 import Project from "./assets/components/projects/Project";
 import WhatWillGet from "./assets/components/what-will-get/WhatWillGet";
-import Laptop from "./assets/components/laptop/Laptop";
 import Skill from "./assets/components/skill/Skill";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-import { useEffect } from "react";
-function App() {
-  useEffect(() => {
-    // Initialize AOS when the component is mounted
-    AOS.init({
-      duration: 1000, // animation duration
-      once: true, // only animate once
-    });
-  }, []);
+import Footer from "./assets/components/footer/Footer";
 
+function App() {
   return (
     <>
       <Header />
@@ -27,11 +17,11 @@ function App() {
       <main className="main">
         <Banner />
         <About />
-        <Laptop />
+        <Skill />
         <WhatWillGet />
         <Project />
-        <Skill/>
       </main>
+      <Footer/>
     </>
   );
 }

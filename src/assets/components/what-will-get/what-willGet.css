@@ -13,6 +13,7 @@
     text-align: center;
     transition: all 0.3s;
     position: relative;
+    height: 100%;
 }
 
 .What-will-get-col::before,
@@ -26,7 +27,7 @@
     justify-content: center;
     font-size: 25px;
     font-weight: bold;
-    background-color: lightblue;
+    background-color: #9ae6ff0d;
     transition: all 0.5s;
 }
 
@@ -90,7 +91,7 @@
 }
 
 .What-will-cont h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.3;
     font-weight: 900;
     background: linear-gradient(188deg, rgb(63 63 63) 0%, rgb(173, 162, 162) 35%, rgb(255 255 255) 100%);
@@ -99,6 +100,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    font-family: "JetBrains Mono", serif;
 }
 
 .What-will-cont p {

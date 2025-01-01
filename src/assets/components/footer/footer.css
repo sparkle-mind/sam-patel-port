@@ -1,0 +1,65 @@
+.footer-inner {
+    padding: 20px 0;
+    border-top: 1px solid #7D8082;
+}
+
+.footer-section .ft-logo {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 400;
+    margin: 20px 0 8px 0;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(20deg, rgba(2, 0, 36, 1) 0%, rgb(173, 162, 162) 35%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    width: 100%;
+}
+
+.social-icn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icn li {
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 5px;
+    transition: all 0.2s;
+
+   
+}
+
+.social-icn li a {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.social-icn li:hover{
+    transform: translateY(-2px);
+}
+.social-icn li img,
+.social-icn li svg {
+    width: 90%;
+    height: 90%;
+}
+
+.social-icn li svg {
+    stroke: #fff !important;
+    fill: #fff !important;
+}
+.ft-slogan{
+    font-size: 16px;
+    text-align: center;
+}
