@@ -100,7 +100,7 @@ export default function About() {
           <div className="cv-download">
             <ul>
               <li>
-                <a href="example.pdf" download>
+                <a href="images/Samir-Vanapariya-Resume.pdf" download>
                   Download CV <img src="/images/cv.svg" alt="" />
                 </a>
               </li>

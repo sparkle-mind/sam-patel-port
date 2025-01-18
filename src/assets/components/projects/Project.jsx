@@ -27,7 +27,7 @@ export default function Project() {
       <section id="projects" class="projects-section">
         <div class="container">
           <div class="section-title">
-            <h2> Projects</h2>
+            <h2> Latest Projects</h2>
           </div>
 
           <div class="project-row row">

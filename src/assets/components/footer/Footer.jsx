@@ -17,24 +17,24 @@ const Footer = () => {
 
             <ul className="social-icn">
               <li>
-                <a href="#">
+                <a href="tel:7359482658">
                   <FaPhoneAlt />
 
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="mailto:samirpatel7095@gmail.com">
                   <MdEmail />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://linkedin.com/in/samir-vanpariya" target="_blank">
                   <FaLinkedin />
                 </a>
               </li>
-          
+
               <li>
-                <a href="#">
+                <a href="https://github.com/sparkle-mind" target="_blank">
                   <GrGithub />
                 </a>
               </li>
