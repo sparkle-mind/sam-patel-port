@@ -63,3 +63,17 @@
     font-size: 16px;
     text-align: center;
 }
+
+@media(max-width:575px){
+    .footer-inner {
+        padding: 10px 0;
+    }
+    .ft-slogan{
+        font-size: 14px;
+    }
+    .social-icn li a {
+        width: 30px;
+        height: 30px;
+        padding: 6px;
+    }
+}

@@ -114,3 +114,79 @@
 .bb .skill-col-inner:hover {
     box-shadow: 2px 2px 36px -4px #0458d2;
 }
+
+.webflow .skill-col-inner:hover {
+    box-shadow: 2px 2px 36px -4px #88a8d6;
+}
+.skill-wrp.mobile {
+    display: none;
+}
+
+@media(max-width:992px) {
+    .skill-col-inner {
+        padding: 25px;
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .skill-wrp-main {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:767px) {
+
+    .skill-col-inner {
+        padding: 15px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .skill-col {
+        padding: 5px;
+    }
+}
+
+@media(max-width:575px) {
+
+    .skill-wrp.desk {
+        display: none;
+    }
+    .skill-wrp.mobile {
+        display: block;
+        mask-image: unset;
+        padding: 15px;
+    }
+    .skill-wrp.mobile::before,
+    .skill-wrp.mobile::after{
+        display: none;
+    }
+    .skill-col {
+        width: 25%;
+        
+    }
+    .skill-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .skill-col-inner {
+        padding: 25px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .skill-col-inner img{
+        object-fit: scale-down;
+    }
+  
+}
+
+@media(max-width:425px) {
+.skill-col-inner {
+    padding: 16px;
+}
+}

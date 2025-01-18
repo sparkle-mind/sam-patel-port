@@ -107,3 +107,23 @@
 
     font-weight: 100;
 }
+@media (max-width:992px){
+
+.What-will-get-col {
+    padding: 15px;
+}
+.What-will-cont h3 {
+    font-size: 18px;
+
+}
+.What-will-img {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto 10px auto;
+}
+.What-will-cont p {
+    font-size: 14px;
+    margin: 15px 0 0 0;
+
+}
+}

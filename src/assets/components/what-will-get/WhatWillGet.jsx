@@ -10,7 +10,7 @@ export default function WhatWillGet() {
           </div>
           <div class="What-will-get-row">
             <div class="row g-4">
-              <div class="col-sm-4">
+              <div class="col-sm-6 col-md-4">
                 <div className="What-will-get-col">
                   <div className="What-will-img">
                     <img src="/images/what-1.png" alt="" />
@@ -23,7 +23,7 @@ export default function WhatWillGet() {
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-6 col-md-4">
                 <div className="What-will-get-col">
                   <div className="What-will-img">
                     <img src="/images/what-2.png" alt="" />
@@ -36,7 +36,7 @@ export default function WhatWillGet() {
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-6 col-md-4">
                 <div className="What-will-get-col">
                   <div className="What-will-img">
                     <img src="/images/what-3.png" alt="" />
@@ -49,7 +49,7 @@ export default function WhatWillGet() {
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-6 col-md-4">
                 <div className="What-will-get-col">
                   <div className="What-will-img">
                     <img src="/images/what-4.png" alt="" />
@@ -62,7 +62,7 @@ export default function WhatWillGet() {
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-6 col-md-4">
                 <div className="What-will-get-col">
                   <div className="What-will-img">
                     <img src="/images/what-5.png" alt="" />
@@ -75,7 +75,7 @@ export default function WhatWillGet() {
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-6 col-md-4">
                 <div className="What-will-get-col">
                   <div className="What-will-img">
                     <img src="/images/what-6.png" alt="" />

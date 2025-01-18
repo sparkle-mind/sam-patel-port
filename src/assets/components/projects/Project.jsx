@@ -31,7 +31,7 @@ export default function Project() {
           </div>
 
           <div class="project-row row">
-            <div class="col-6 project-col">
+            <div class="col-12 col-sm-6 project-col">
              
               <div class="project-details">
               <div class="project-img">
@@ -42,7 +42,7 @@ export default function Project() {
                   Project Name: <span> Legalspace </span>{" "}
                 </h4>
                 <h4>
-                  Time to Complete: : <span> [ 1.2 year +] </span>
+                  Time to Complete:  <span> [ 1.2 year +] </span>
                 </h4>
                 <h4 className="site-link">
                   Site Link: <a href="https://legalspace.ai/">https://legalspace.ai/</a>
@@ -64,7 +64,7 @@ export default function Project() {
                 </ul>
               </div>
             </div>
-            <div class="col-6 project-col pt">
+            <div class="col-12 col-sm-6 project-col pt">
             
               <div class="project-details">
               <div class="project-img">
@@ -74,7 +74,7 @@ export default function Project() {
                   Project Name: <span>LeWogle </span>{" "}
                 </h4>
                 <h4>
-                  Time to Complete: : <span> [ 4+ Month ] </span>
+                  Time to Complete:  <span> [ 4+ Month ] </span>
                 </h4>
                 <h4 className="site-link">
                   Site Link: <a href="https://lewogle.com/">https://lewogle.com/</a>
@@ -96,7 +96,7 @@ export default function Project() {
                 </ul>
               </div>
             </div>
-            <div class="col-6 project-col">
+            <div class="col-12 col-sm-6 project-col">
              
               <div class="project-details">
               <div class="project-img">
@@ -106,7 +106,7 @@ export default function Project() {
                   Project Name: <span>Steve Madden </span>{" "}
                 </h4>
                 <h4>
-                  Time to Complete: : <span> - </span>
+                  Time to Complete:  <span> - </span>
                 </h4>
                 <h4 className="site-link">
                   Site Link: <a href="https://www.stevemadden.in/">https://www.stevemadden.in/</a>
@@ -125,7 +125,7 @@ export default function Project() {
                 </ul>
               </div>
             </div>
-            <div class="col-6 project-col pt">
+            <div class="col-12 col-sm-6 project-col pt">
               
               <div class="project-details">
               <div class="project-img">
@@ -135,7 +135,7 @@ export default function Project() {
                   Project Name: <span> Level Up </span>{" "}
                 </h4>
                 <h4>
-                  Time to Complete: : <span> - </span>
+                  Time to Complete:  <span> - </span>
                 </h4>
                 <h4 className="site-link">
                   Site Link: <a href="https://get365ready.com/">https://get365ready.com/</a>

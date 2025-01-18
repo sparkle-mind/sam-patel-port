@@ -7,9 +7,9 @@ export default function Banner() {
     <>
 
       <section class="banner-section">
-        {/* <div class="pattern1">
-          <img src="/images/pattern-bottom.png" />
-        </div> */}
+        <div class="bg-img">
+          <img src="/images/bg-dev-2.jpg" />
+        </div>
         <div class="container">
           <div class="row banner-row">
             <div class="col-md-7">
@@ -55,6 +55,9 @@ export default function Banner() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="gradient-blur">
+          
         </div>
       </section>
     </>

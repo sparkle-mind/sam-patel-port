@@ -4,7 +4,7 @@ import Accordion from 'react-bootstrap/Accordion';
 export default function About() {
   return (
     <>
-      <section id="about" class="about-section">
+      <section id="about" class="about-section" >
         <div class="container">
           <div className="section-title">
             <h2>About Me</h2>

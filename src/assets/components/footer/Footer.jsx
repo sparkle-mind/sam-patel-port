@@ -10,7 +10,7 @@ const Footer = () => {
       <footer class="footer-section">
         <div class="container">
           <div class="footer-inner">
-            <a href="login.html" class="ft-logo">
+            <a href="#" class="ft-logo">
               {logo}
             </a>
             <p className="ft-slogan">Design with Precision, Craft with Passion.</p>
