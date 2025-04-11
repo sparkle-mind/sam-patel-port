@@ -12,7 +12,7 @@ export default function About() {
           <div className="company-name">
             <div className="exp-title">
               <h2>
-                I have <span>3+ years of experience</span> running successful
+                I have <span>4+ years of experience</span> running successful
                 design practices together with startups and top brands.
               </h2>
             </div>

@@ -24,6 +24,7 @@
 
 .company-name span {
     color: #fff;
+    font-family: "Winky Rough", sans-serif;
 }
 
 .company-list {
@@ -47,7 +48,7 @@
     margin: 5px 0;
 }
 .cv-download {
-    margin: 50px 0;
+    margin: 50px 0 0 0;
 }
 
 .cv-download li {
@@ -79,7 +80,7 @@
 }
 
 .cv-download li a:hover::after {
-    border-color: #c3c3c34a;
+    border-color: #DBA6F4;
     width: 100%;
 
 }
@@ -93,7 +94,7 @@
 
 .company-list-header {
     padding: 20px;
-    border-top: 1px solid #c3c3c34a;
+    border-top: 1px solid #DBA6F4;
     /* border-bottom: 1px solid #bfb7ad; */
     display: flex;
     flex-wrap: wrap;

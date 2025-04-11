@@ -21,12 +21,14 @@
     margin: 5px 0;
     position: relative;
     display: inline-block;
-    background: linear-gradient(3deg, rgba(2, 0, 36, 1) 0%, rgb(173, 162, 162) 35%, rgba(0, 212, 255, 1) 100%);
+    /* background: linear-gradient(3deg, rgba(2, 0, 36, 1) 0%, rgb(173, 162, 162) 35%, rgba(0, 212, 255, 1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
+    color: transparent; */
+    color: #DBA6F4;
+    font-family: "Winky Rough", sans-serif;
 
 }
 
@@ -57,9 +59,9 @@
 }
 
 .nav-wrp ul li a {
-    font-size: 18px;
+    font-size: 22px;
     list-style: 1.1;
-    font-weight: 300;
+    font-weight: 600;
     padding: 0;
     color: #ffffffd5;
     transition: all .2s ease-in-out;
@@ -156,7 +158,7 @@
         padding: 5px;
         width: 35px;
         height: 35px;
-        border-color: #c3c3c34a;
+        border-color: #DBA6F4;
     }
     #menu-btn svg{
         width: 100%;

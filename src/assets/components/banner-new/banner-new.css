@@ -1,0 +1,78 @@
+.banner-new-section {
+    padding: 80px 0 !important;
+    position: relative;
+
+}
+
+.banner-new-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background-image: url(/images/bg-grd.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scale(1.5);
+    filter: brightness(0.7);
+    z-index: -1;
+}
+
+.banner-cont {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-cont h1 {
+    font: normal 500 60px/1.4 "Winky Rough", sans-serif;
+    color: #DBA6F4;
+    margin: 0 0 30px 0;
+}
+
+.banner-cont p {
+    font: normal 500 21px/1.4 "DM Sans", serif;
+    margin: 0 0 30px 0;
+    color: rgb(231, 241, 251);
+}
+
+@media(max-width:991px) {
+    .header-section .header-left-logo {
+        height: 30px;
+    }
+    .header-section .header-left-logo svg{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .banner-new-section {
+        padding: 60px 0 !important;
+    }
+    .banner-cont h1 {
+        font-size: 48px;
+        margin: 0 0 20px 0;
+    }
+    .banner-cont p{
+        font-size: 18px;
+    }
+}
+@media(max-width:767px) {
+ 
+    .banner-new-section {
+        padding: 40px 0 !important;
+    }
+    .banner-cont h1 {
+        font-size: 32px;
+    }
+    .banner-cont p{
+        font-size: 16px;
+    }
+}
+

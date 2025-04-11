@@ -29,6 +29,7 @@
 .project-details:hover .project-img img{
     filter: unset;
     transform: scale(1.02);
+    margin-bottom: 20px;
 
 }
 
@@ -53,8 +54,8 @@
 }
 
 .project-details span {
-    color: #fff;
     margin-left: 10px;
+    color: #fff;
 }
 
 .project-col {

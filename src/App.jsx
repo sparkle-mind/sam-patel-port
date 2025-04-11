@@ -8,6 +8,7 @@ import Project from "./assets/components/projects/Project";
 import WhatWillGet from "./assets/components/what-will-get/WhatWillGet";
 import Skill from "./assets/components/skill/Skill";
 import Footer from "./assets/components/footer/Footer";
+import BannerNew from "./assets/components/banner-new/BannerNew";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Header />
 
       <main className="main">
-        <Banner />
+        {/* <Banner /> */}
+        <BannerNew/>
         <About />
         <Skill />
         <WhatWillGet />
