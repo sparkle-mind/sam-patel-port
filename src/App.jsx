@@ -21,7 +21,7 @@ function App() {
       // Show modal after 30 seconds
       const timer = setTimeout(() => {
         setShowModal(true);
-      }, 3000);
+      }, 9000);
   
       // Clean up the timer when component unmounts
       return () => clearTimeout(timer);
