@@ -10,7 +10,14 @@ const Header = () => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
+  const handleNavClick = (e, targetId) => {
+    e.preventDefault(); // stop default anchor jump
+    const target = document.getElementById(targetId);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+    handleClose(); // close sidebar
+  };
 
 
 
@@ -87,22 +94,22 @@ const Header = () => {
                 <nav class="nav-wr-phone">
                   <ul>
                     <li>
-                      <a href="#about" class="nav">
+                      <a href="#" class="nav"  onClick={handleClose}>
                         About
                       </a>
                     </li>
                     <li>
-                      <a href="#skill" class="nav">
+                      <a href="#" class="nav"  onClick={handleClose}>
                         Skill
                       </a>
                     </li>
                     <li>
-                      <a href="#projects" class="nav">
+                      <a href="#" class="nav" onClick={handleClose}>
                         Projects
                       </a>
                     </li>
                     <li>
-                      <a href="#contact" class="nav">
+                      <a href="#" class="nav"  onClick={handleClose}>
                         Contact
                       </a>
                     </li>

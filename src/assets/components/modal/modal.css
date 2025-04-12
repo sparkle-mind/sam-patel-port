@@ -1,0 +1,219 @@
+.modal-wrp {
+    position: fixed;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.modal-wrp .modal-inner {
+    max-width: 500px;
+    width: 100%;
+    background-color: #5c2477;
+    padding: 20px 30px;
+    border-radius: 25px;
+    margin-left: 33%;
+    position: relative;
+    margin-top: -50px;
+}
+
+.modal-wrp .modal-inner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -70px;
+    width: 270px;
+    height: 100px;
+    background: #dba6f4;
+    clip-path: polygon(81% 66%, 95% 72%, 97% 72%, 100% 80%, 72% 89%, 40% 100%, 0 34%);
+    z-index: -1;
+}
+
+.modal-wrp .modal-inner .modal-content h4 {
+    font-weight: 200;
+    margin: 20px 0;
+    font-size: 20px;
+    color: #fff;
+}
+
+.modal-wrp .modal-inner .modal-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  
+}
+
+.modal-wrp .modal-inner .modal-btn .btn {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #fff;
+    display: flex
+;
+    align-items: center;
+    transition: all .2s ease-in-out;
+    padding-bottom: 5px;
+    width: max-content;
+    position: relative;
+}
+.modal-wrp .modal-inner .modal-btn .btn img {
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+    display: block;
+    filter: brightness(1.4);
+    margin-top: -3px;
+}
+.modal-wrp .modal-inner .modal-btn  a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid transparent;
+    transition: all .2s ease-in-out;
+}
+.modal-wrp .modal-inner .close-icn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #dba6f4;
+    color: #000;
+    display: block;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    border: unset;
+}
+
+.modal-wrp .modal-boy {
+    width: 180px;
+    transform: rotateZ(46deg) translate(60px, 150px);
+    filter: brightness(0.5);
+}
+
+.modal-wrp .modal-boy img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+    .modal-wrp {
+        top: 40%;
+    }
+
+    .modal-wrp .modal-inner {
+        max-width: 400px;
+        padding: 20px;
+        border-radius: 30px;
+        margin-left: 120px;
+        margin-top: -30px;
+    }
+
+    .modal-wrp .modal-inner::after {
+        left: -50px;
+        width: 200px;
+        height: 80px;
+    }
+
+    .modal-wrp .modal-inner .modal-content h4 {
+        font-size: 16px;
+        margin: 20px 0 30px 0;
+    }
+
+    .modal-wrp .modal-inner .modal-btn {
+        gap: 0;
+    }
+
+    .modal-wrp .modal-inner .modal-btn .btn {
+        font-size: 16px;
+        gap: 0 15px;
+        padding: 5px 15px;
+        text-transform: capitalize;
+    }
+
+    .modal-wrp .modal-inner .close-icn {
+        top: 10px;
+        right: 15px;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .modal-wrp .modal-boy {
+        width: 150px;
+        transform: rotateZ(43deg) translate(50px, 140px);
+    }
+
+    .download-btn {
+        width: 35px;
+        height: 35px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .modal-wrp {
+        top: 100px;
+        transform: unset;
+    }
+
+    .modal-wrp .modal-inner {
+        max-width: 300px;
+        padding: 10px;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-top: 120px;
+    }
+
+    .modal-wrp .modal-inner::after {
+        left: 19px;
+        width: 80px;
+        height: 60px;
+        top: -40px;
+        transform: rotateY(45deg);
+    }
+
+    .modal-wrp .modal-inner .modal-content h4 {
+        font-size: 14px;
+        margin: 40px 0 20px 0;
+    }
+
+    .modal-wrp .modal-inner .modal-btn {
+        margin: 10px 0;
+        gap: 0;
+    }
+
+    .modal-wrp .modal-inner .modal-btn .btn {
+        font-size: 14px;
+        gap: 0 10px;
+        padding: 5px 10px;
+    }
+
+    .modal-wrp .modal-boy {
+        width: 90px;
+        transform: rotateZ(43deg) translate(80px, 130px);
+    }
+
+    .download-btn {
+        width: 35px;
+        height: 35px;
+        padding: 8px;
+    }
+}
