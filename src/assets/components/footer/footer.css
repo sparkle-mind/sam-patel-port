@@ -1,6 +1,11 @@
 .footer-inner {
     padding: 20px 0;
-    border-top: 1px solid #7D8082;
+    border-top: 1px solid #DBA6F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .footer-section .ft-logo {
@@ -17,9 +22,16 @@
     -webkit-background-clip: text;
     color: transparent;
     text-align: center;
-    width: 100%;
+    width: max-content;
+    margin-bottom: 20px;
+    height: 30px;
 }
-
+.footer-section .ft-logo img,
+.footer-section .ft-logo svg{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 .social-icn {
     display: flex;
     flex-wrap: wrap;

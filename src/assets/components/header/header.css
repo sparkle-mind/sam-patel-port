@@ -29,10 +29,11 @@
     color: transparent; */
     color: #DBA6F4;
     font-family: "Winky Rough", sans-serif;
-
+    height: 32px;
 }
 
-.header-section .header-left-logo img {
+.header-section .header-left-logo img,
+.header-section .header-left-logo svg {
     width: 100%;
     height: 100%;
     display: block;
@@ -81,7 +82,7 @@
 }
 
 .nav-wrp ul li a:hover::after {
-    border-color: #ffffffd5;
+    border-color: #DBA6F4;
     width: 100%;
 }
 
@@ -116,12 +117,15 @@
 }
 
 .offcanvas-header {
-    background-color: #e5e5e5;
-    padding: 10px 16px;
+    background-color: #00091a;
+    padding:25px 15px 15px 15px;
+    border-bottom: 1px solid #DBA6F4;
 }
-
+.offcanvas-header button.btn-close {
+    filter: invert(1);
+}
 .offcanvas-body {
-    background-color: #101010;
+    background-color: #00091a;
 }
 
 .offcanvas-body .nav {
@@ -168,5 +172,16 @@
 
     #desk-nav {
         display: none;
+    }
+    .offcanvas-header .header-left-logo {
+        height: 20px;
+        display: block;
+        filter: drop-shadow(2px 3px 2px black);
+    }
+    .offcanvas-header .header-left-logo svg,
+    .offcanvas-header .header-left-logo img{
+        width: 100%;
+        height: 100%;
+        display: block;
     }
 }

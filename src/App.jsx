@@ -9,6 +9,7 @@ import WhatWillGet from "./assets/components/what-will-get/WhatWillGet";
 import Skill from "./assets/components/skill/Skill";
 import Footer from "./assets/components/footer/Footer";
 import BannerNew from "./assets/components/banner-new/BannerNew";
+import Contact from "./assets/components/contact/Contact";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Skill />
         <WhatWillGet />
         <Project />
+        <Contact/>
       </main>
       <Footer/>
     </>
