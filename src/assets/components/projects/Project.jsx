@@ -155,12 +155,12 @@ export default function Project() {
               </div>
             </div>
           </div>
-          <button class="button view-all-btn">
+          {/* <button class="button view-all-btn">
             <span class="button_lg">
               <span class="button_sl"></span>
               <span class="button_text">View All</span>
             </span>
-          </button>
+          </button> */}
         </div>
       </section>
     </>

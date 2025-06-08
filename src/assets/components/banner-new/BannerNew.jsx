@@ -12,8 +12,8 @@ export default function BannerNew() {
                 <div class="section-title">
                   <h1>Hi 👋, I’m Samir.
                     <br />
-                    An HTML developer. ✨</h1>
-                  <p>I have a strong foundation in front-end technologies, including HTML5, CSS3, and JavaScript, and I continually strive to stay updated with the latest industry trends. My goal is to build websites that not only look good but also function seamlessly across all devices and browsers.</p>
+                    A Sr. HTML developer. ✨</h1>
+                  <p>Sr. HTML Developer with 4+ years of proven experience in building responsive, SEO-optimized, and accessible web interfaces using HTML5, CSS3, JavaScript, and modern frontend frameworks. Proficient in implementing pixel-perfect designs from PSD/Figma, optimizing performance, and ensuring cross-browser compatibility. Skilled in leveraging Tailwind CSS, Bootstrap, Material UI, React.js, and Next.js to build scalable UI components. Strong understanding of semantic HTML, mobile-first design, and Git-based version control in Agile environments.</p>
                 </div>
                 <a href="#contact" class="button hire-btn"><span class="button_lg"><span class="button_sl"></span><span class="button_text">Hire Me</span></span></a>
               </div>

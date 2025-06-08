@@ -15,7 +15,7 @@ const ModalNotification = ({ onClose }) => {
             </h4>
           </div>
           <div className="modal-btn">
-          <a href="images/Samir-Vanapariya-Resume-2025.pdf" download="samir-resume" className="btn">Download CV <img src="/images/cv.svg" alt="" /></a>
+          <a href="images/SamirVanapariyaResume.pdf" download className="btn">Download CV <img src="/images/cv.svg" alt="" /></a>
           </div>
           <button className="close-icn" onClick={onClose}> X </button>
         </div>
